@@ -20,7 +20,7 @@ const renderAvatar = user => {
     console.log(user);
     let uname = user.nickname || user.username
     //渲染欢迎语
-    $('welcome').html(`欢迎${uname}`)
+    $('#welcome').html(`欢迎 ${uname}`)
     //按需渲染头像
     if (user.user_pic !== null) {
         // 渲染图片头像
